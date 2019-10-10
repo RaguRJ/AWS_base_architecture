@@ -2,9 +2,11 @@
 yum install -y httpd php git
 
 cd /var/www/html
-wget https://raw.githubusercontent.com/RaguRJ/AWS_base_architecture/master/dog1.jpg
-mv dog1.jpg dog.jpg
-wget https://github.com/linuxacademy/content-aws-csa2019/raw/master/lesson_files/07_hybrid_scaling/1_LBandASG/ALB/index.php
+sudo su
+wget https://raw.githubusercontent.com/RaguRJ/AWS_base_architecture/master/dog1.JPG
+mv dog1.JPG dog.jpg
+wget https://raw.githubusercontent.com/RaguRJ/AWS_base_architecture/master/index.php
+wget https://raw.githubusercontent.com/RaguRJ/AWS_base_architecture/master/htaccess
 mv /var/www/html/htaccess /var/www/html/.htaccess
 
 mkdir /var/www/html/dog
